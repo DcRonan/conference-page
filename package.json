@@ -1,0 +1,30 @@
+{
+  "name": "repo-template",
+  "version": "1.0.0",
+  "description": "> Write about the project...",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run webhint && npm run stylelint && echo \"Passed ✅✅ No errors! 😁😁\"",
+    "webhint": "npx hint .",
+    "stylelint": "npx stylelint **/*.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DcRonan/Repo-Template.git"
+  },
+  "author": "Daniel Ronan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DcRonan/Repo-Template/issues"
+  },
+  "homepage": "https://github.com/DcRonan/Repo-Template#readme",
+  "dependencies": {
+    "hint": "^6.0.7"
+  },
+  "devDependencies": {
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
