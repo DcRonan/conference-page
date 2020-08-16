@@ -36,6 +36,41 @@
 }
 
 /* ==========
+   MULTIPLE
+=========== */
+.flex-box,
+.flex-text {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-program,
+.speakers {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h5 {
+  border-bottom: 3px solid #ec5242;
+}
+
+/* ==========
    HEADER
 =========== */
 header a {
@@ -55,32 +90,8 @@ header a:hover {
    PROGRAM
 =========== */
 .main-program {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
-}
-
-.main-program .program-box,
-.main-program .program-text {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 .main-program .program-box {
@@ -92,10 +103,6 @@ header a:hover {
   border: 1px solid #fff;
 }
 
-.main-program h5 {
-  border-bottom: 3px solid #ec5242;
-}
-
 .main-program span {
   color: #ec5242;
 }
@@ -104,6 +111,30 @@ header a:hover {
   font-size: 35px;
 }
 
+.main-program button {
+  padding: 20px 40px;
+  font-size: 18px;
+}
+
+.main-program h6 {
+  text-decoration: underline;
+}
+
+/* ==========
+   SPEAKERS
+=========== */
+.speakers button {
+  -webkit-box-shadow: 2px 2px;
+          box-shadow: 2px 2px;
+}
+
+.speakers button i {
+  color: #ec5242;
+}
+
+/* ==================
+   MEDIA QUERIES
+=================== */
 @media (min-width: 768px) {
   .program-box {
     max-width: 230px;
@@ -113,10 +144,10 @@ header a:hover {
 
 @media (min-width: 992px) {
   .program-box {
-    font-size: 15px;
+    font-size: 13px;
   }
   .program-box span {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 /*# sourceMappingURL=style.css.map */

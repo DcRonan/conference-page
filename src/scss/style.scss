@@ -11,6 +11,24 @@
 }
 
 /* ==========
+   MULTIPLE
+=========== */
+
+.flex-box,
+  .flex-text {
+    @include flexCenter(row);
+  }
+
+  .main-program,
+  .speakers {
+    @include flexCenter(column);
+  }
+
+h5 {
+  border-bottom: 3px solid $text-orange;
+}
+
+/* ==========
    HEADER
 =========== */
 
@@ -33,14 +51,8 @@ header {
 =========== */
 
 .main-program {
-  @include flexCenter(column);
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
-  
-  .program-box,
-  .program-text {
-    @include flexCenter(row);
-  }
 
   .program-box {
     padding: 5px 2px 5px 2px;
@@ -51,10 +63,6 @@ header {
     border: 1px solid #fff;
   }
 
-  h5 {
-    border-bottom: 3px solid $text-orange;
-  }
-
   span {
     color: $text-orange;
   }
@@ -62,7 +70,34 @@ header {
   i {
     font-size: 35px;
   }
+
+  button {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+
+  h6 {
+    text-decoration: underline;
+  }
 }
+
+/* ==========
+   SPEAKERS
+=========== */
+
+.speakers {
+  button {
+    box-shadow: 2px 2px;
+
+    i {
+      color: $text-orange;
+    }
+  }
+}
+
+/* ==================
+   MEDIA QUERIES
+=================== */
 
 @media (min-width: 768px) {
     .program-box {
@@ -72,11 +107,10 @@ header {
 }
 
 @media (min-width: 992px) {
-  .program-box {
-    font-size: 15px;
+   .program-box {
+    font-size: 13px;
     span {
-      font-size: 16px;
+      font-size: 14px;
     }
-    
   }
 }
