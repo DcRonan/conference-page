@@ -1,8 +1,11 @@
 
 TODO:
 [ ] Add favicon
-[ ] 
-[ ] 
+[ ] Add white border on top box on main page
+[ ] Make sure to change active text on each page on nav
+[ ] add links on navbar for other pages
+[ ] make menu btton thicker
+[ ] Add background picture in header with opacity
 
 Step by Step:
 1. // Sort notes inc tasks

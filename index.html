@@ -12,14 +12,181 @@
   <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
   <link href="https://unpkg.com/sanitize.css/typography.css" rel="stylesheet" />
   <link href="https://unpkg.com/sanitize.css/forms.css" rel="stylesheet" />
-  <link rel="stylesheet" href="src/css/index.css">
+  <script src="https://kit.fontawesome.com/867f1dd431.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="src/css/style.css">
 </head>
 
-<body>
+<body class="container-fluid">
+  <!-- HEADER -->
+  <header class="row">
+    <!-- TOP NAV -->
+    <nav class="col-12 d-none d-md-flex justify-content-end bg-black navbar top-nav">
+      <ul class="d-flex">
+        <li class="nav-item">
+          <a href="#" class="text-decoration-none">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="text-decoration-none">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+      </ul>
+      <ul class="d-flex mr-3">
+        <li class="nav-item">
+          <a href="#" class="text-decoration-none">
+            English
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="text-decoration-none">
+            My Page
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="text-decoration-none">
+            Logout
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- BOTTOM NAV -->
+    <nav class="col-12 navbar navbar-expand-md navbar-light">
+      <a href="./index.html" class="navbar-brand d-none d-md-block">
+        <img src="./src/assets/svg/E3_Logo.svg" alt="E3 main logo">
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#nav-links"
+        aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- DROPDOWN -->
+      <div class="navbar-collapse collapse justify-content-end" id="nav-links">
+        <ul class="navbar-nav pl-3">
+          <li class="nav-item active">
+            <a class="nav-link text-decoration-none" href="./index.html">
+              Home
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">
+              Tickets
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">
+              About
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- TITLE & ABOUT -->
+    <section class="col-12 p-3 bg-header-pattern">
+      <div>
+        <span>
+          "E3: 2021"
+        </span>
+        <h1>
+          E3 PRESENTS: CELEBRATIONS AND GAME ANNOUNCEMENTS
+        </h1>
+      </div>
+      <div class="card">
+        <div class="card-body border-white">
+          In 2021, leading computer and video game companies, business partners, media, industry analysts, and gamers
+          from
+          over 100 countries will converge on the Los Angeles Convention Center. E3 2021 will welcome experts,
+          visionaries, entrepreneurs, leading streamers, and online influencers from all walks of the computer and video
+          game industry:
+        </div>
+      </div>
+      <div class="mt-2 mb-5">
+        <h2>
+          JUNE 9th ~ JUNE 11 2021
+        </h2>
+        <h5>
+          @Los Angeles Convention Center, California.
+        </h5>
+      </div>
+    </section>
+  </header>
 
-  <h1>
-    Project Name
-  </h1>
+  <main class="row">
+    <!-- MAIN PROGRAM -->
+    <section class="col-12 bg-program main-program d-flex main-program row no-gutters">
+      <div>
+        <h5>
+          Main Program
+        </h5>
+      </div>
+      <div class="d-md-flex">
+        <div class="d-flex flex-md-column program-box bg-program-box no-gutters mb-2 pt-md-3 pb-md-3">
+          <div class="d-flex flex-md-column program-text col-4 mb-md-2">
+            <i class="fas fa-user mb-md-2"></i>
+            <span class="font-weight-bold pl-2 pl-md-0">
+              Lecture
+            </span>
+          </div>
+          <div class="col-8 text-md-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque amet, veritatis a consequatur veniam
+            quidem impedit sequi facere
+          </div>
+        </div>
+        <div class="d-flex flex-md-column program-box bg-program-box no-gutters mb-2 pt-md-3 pb-md-3">
+          <div class="d-flex flex-md-column program-text col-4 mb-md-2">
+            <i class="fas fa-user mb-md-2"></i>
+            <span class="font-weight-bold pl-2 pl-md-0">
+              Lecture
+            </span>
+          </div>
+          <div class="col-8 text-md-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque amet, veritatis a consequatur veniam
+            quidem impedit sequi facere
+          </div>
+        </div>
+        <div class="d-flex flex-md-column program-box bg-program-box no-gutters mb-2 pt-md-3 pb-md-3">
+          <div class="d-flex flex-md-column program-text col-4 mb-md-2">
+            <i class="fas fa-user mb-md-2"></i>
+            <span class="font-weight-bold pl-2 pl-md-0">
+              Lecture
+            </span>
+          </div>
+          <div class="col-8 text-md-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque amet, veritatis a consequatur veniam
+            quidem impedit sequi facere
+          </div>
+        </div>
+        <div class="d-flex flex-md-column program-box bg-program-box no-gutters mb-2 pt-md-3 pb-md-3">
+          <div class="d-flex flex-md-column program-text col-4 mb-md-2">
+            <i class="fas fa-user mb-md-2"></i>
+            <span class="font-weight-bold pl-2 pl-md-0">
+              Lecture
+            </span>
+          </div>
+          <div class="col-8 text-md-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque amet, veritatis a consequatur veniam
+            quidem impedit sequi facere
+          </div>
+        </div>
+        <div class="d-flex flex-md-column program-box bg-program-box no-gutters mb-2 pt-md-3 pb-md-3">
+          <div class="d-flex flex-md-column program-text col-4 mb-md-2">
+            <i class="fas fa-user mb-md-2"></i>
+            <span class="font-weight-bold pl-2 pl-md-0">
+              Lecture
+            </span>
+          </div>
+          <div class="col-8 text-md-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum neque amet, veritatis a consequatur veniam
+            quidem impedit sequi facere
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    footer
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

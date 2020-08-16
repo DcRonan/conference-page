@@ -2,3 +2,81 @@
 @import "./tickets";
 @import "./mixins";
 @import "./variables";
+
+// RESET
+*,
+*::before,
+*::after {
+  @include reset();
+}
+
+/* ==========
+   HEADER
+=========== */
+
+header {
+  a {
+    color: #fff;
+    margin-right: 1rem;
+    &:hover {
+      color: $text-orange;
+    }
+  }
+}
+
+.top-nav {
+  height: 40px;
+}
+
+/* ==========
+   PROGRAM
+=========== */
+
+.main-program {
+  @include flexCenter(column);
+  font-size: 12px;
+  color: #fff;
+  
+  .program-box,
+  .program-text {
+    @include flexCenter(row);
+  }
+
+  .program-box {
+    padding: 5px 2px 5px 2px;
+  }
+
+  .program-box:hover {
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+
+  h5 {
+    border-bottom: 3px solid $text-orange;
+  }
+
+  span {
+    color: $text-orange;
+  }
+
+  i {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+    .program-box {
+      max-width: 230px;
+      margin: 2px;
+    }
+}
+
+@media (min-width: 992px) {
+  .program-box {
+    font-size: 15px;
+    span {
+      font-size: 16px;
+    }
+    
+  }
+}
