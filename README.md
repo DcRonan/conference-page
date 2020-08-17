@@ -38,7 +38,7 @@ Additional description about the project and its features...
 
 #### Click on image below..
 
-<a href="#" target="_blank">
+<a href="https://e3-expo.vercel.app/" target="_blank">
     <img src="src/assets/svg/monitor.svg">
 </a>
 
