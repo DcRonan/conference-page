@@ -16,16 +16,18 @@
 
 .flex-box,
 .flex-text {
-  @include flexCenter(row);
+  @include flexCenter(center, row);
 }
 
 .main-program,
-.speakers {
-  @include flexCenter(column);
+.speakers,
+.top-footer {
+  @include flexCenter(center, column);
 }
 
 .main-program h5,
-.speakers h5 {
+.speakers h5,
+footer h5 {
   border-bottom: 3px solid $text-orange;
 }
 
@@ -99,6 +101,15 @@ header {
       color: $text-orange;
     }
   }
+}
+
+/* ==========
+   FOOTER
+=========== */
+
+.brand-logos {
+  @include flexCenter(space-evenly, center);
+  flex-wrap: wrap;
 }
 
 /* ==================

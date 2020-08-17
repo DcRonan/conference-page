@@ -2,6 +2,10 @@
   background-color: #272a31;
 }
 
+.bg-footer {
+  background-color: #414246;
+}
+
 .bg-orange {
   background-color: #ec5242;
 }
@@ -40,6 +44,9 @@
 =========== */
 .flex-box,
 .flex-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -53,7 +60,11 @@
 }
 
 .main-program,
-.speakers {
+.speakers,
+.top-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -67,7 +78,8 @@
 }
 
 .main-program h5,
-.speakers h5 {
+.speakers h5,
+footer h5 {
   border-bottom: 3px solid #ec5242;
 }
 
@@ -135,6 +147,27 @@ header button {
 
 .speakers button i {
   color: #ec5242;
+}
+
+/* ==========
+   FOOTER
+=========== */
+.brand-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: center;
+          flex-direction: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 /* ==================

@@ -6,8 +6,9 @@
 }
 
 // FLEX DIRECTION
-@mixin flexCenter($direction) {
-  justify-content: center;
+@mixin flexCenter($justify, $direction) {
+  display: flex;
+  justify-content: $justify;
   align-items: center;
   flex-direction: $direction;
 }
