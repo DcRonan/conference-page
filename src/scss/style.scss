@@ -27,7 +27,10 @@
 .logo-section,
 .past-events,
 .videos,
-.tickets-section {
+.tickets-section,
+.lunch-section,
+.menu-radio,
+fieldset div {
   @include flexCenter(center, column);
 }
 
@@ -36,7 +39,9 @@
 footer h5,
 .logo-section h4,
 .past-events h5,
-main h1 {
+main ,
+.tickets-section h1,
+.lunch-section h3 {
   border-bottom: 3px solid $text-orange;
 }
 

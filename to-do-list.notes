@@ -2,8 +2,8 @@
 TODO:
 [ ] Add favicon
 [ ] Add white border on top box on main page
-[ ] Make sure to change active text on each page on nav
-[ ] add links on navbar for other pages
+[√] Make sure to change active text on each page on nav
+[√] add links on navbar for other pages
 [ ] make menu button thicker
 [√] Add background picture in header with opacity
 [√] change figure tags
@@ -12,9 +12,8 @@ TODO:
 Step by Step:
 1. // Sort notes inc tasks
 2. // add colors and fonts
-3. create all mobile layouts
-4. make pages responsive before adding content
-5. Create a festival website
+3. // create all mobile layouts
+4. // make pages responsive before adding content
 
 Things to add:
 [ ] CSS Patterns

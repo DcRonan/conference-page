@@ -2,18 +2,26 @@
 @import "./mixins";
 
 /* ==========
+   MULTIPLE
+=========== */
+
+.tickets-section,
+.lunch-section {
+  .fa-square-full {
+    transform: rotate(-45deg);
+  }
+
+  span,
+  .square-middle {
+    color: $text-orange;
+  }
+}
+
+/* ==========
    TICKETS
 =========== */
 
 .tickets-section {
-  i {
-    transform: rotate(-45deg);
-  }
-
-  span {
-    color: $text-orange;
-  }
-
   table {
     font-size: 10px;
     max-width: 1000px;
@@ -24,6 +32,28 @@
   }
 }
 
+/* ==========
+   LUNCH
+=========== */
+
+.square-section {
+  top: -20px;
+  left: 45%;
+
+  .square-middle {
+    font-size: 40px;
+  }
+
+  .fa-chevron-down {
+    left: 12px;
+    top: 9px;
+  }
+}
+
+#menu-collapse button {
+  color: $text-orange;
+}
+
 /* =============
    MEDIA QUERIES
 ============== */
@@ -31,5 +61,10 @@
 @media (min-width: 570px) {
   tr {
     font-size: 15px;
+  }
+
+  .square-section {
+    top: -20px;
+    left: 49%;
   }
 }

@@ -56,17 +56,24 @@
 }
 
 /* ==========
-   TICKETS
+   MULTIPLE
 =========== */
-.tickets-section i {
+.tickets-section .fa-square-full,
+.lunch-section .fa-square-full {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
 
-.tickets-section span {
+.tickets-section span,
+.tickets-section .square-middle,
+.lunch-section span,
+.lunch-section .square-middle {
   color: #ec5242;
 }
 
+/* ==========
+   TICKETS
+=========== */
 .tickets-section table {
   font-size: 10px;
   max-width: 1000px;
@@ -76,12 +83,37 @@
   width: 60px;
 }
 
+/* ==========
+   LUNCH
+=========== */
+.square-section {
+  top: -20px;
+  left: 45%;
+}
+
+.square-section .square-middle {
+  font-size: 40px;
+}
+
+.square-section .fa-chevron-down {
+  left: 12px;
+  top: 9px;
+}
+
+#menu-collapse button {
+  color: #ec5242;
+}
+
 /* =============
    MEDIA QUERIES
 ============== */
 @media (min-width: 570px) {
   tr {
     font-size: 15px;
+  }
+  .square-section {
+    top: -20px;
+    left: 49%;
   }
 }
 
@@ -154,7 +186,10 @@
 .logo-section,
 .past-events,
 .videos,
-.tickets-section {
+.tickets-section,
+.lunch-section,
+.menu-radio,
+fieldset div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,7 +210,9 @@
 footer h5,
 .logo-section h4,
 .past-events h5,
-main h1 {
+main,
+.tickets-section h1,
+.lunch-section h3 {
   border-bottom: 3px solid #ec5242;
 }
 
