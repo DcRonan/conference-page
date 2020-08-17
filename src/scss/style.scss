@@ -22,7 +22,8 @@
 
 .main-program,
 .speakers,
-.top-footer {
+.top-footer,
+.header-text {
   @include flexCenter(center, column);
 }
 
@@ -46,8 +47,11 @@ header {
   }
 
   button {
-    
     border: 5px solid $text-orange;
+  }
+
+  .main-head-text {
+    max-width: 790px;
   }
 }
 

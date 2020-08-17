@@ -1,3 +1,10 @@
+/* ==========
+   HEADER
+=========== */
+.contact-info {
+  max-width: 370px;
+}
+
 .bg-black {
   background-color: #272a31;
 }
@@ -62,7 +69,8 @@
 
 .main-program,
 .speakers,
-.top-footer {
+.top-footer,
+.header-text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,6 +106,10 @@ header a:hover {
 
 header button {
   border: 5px solid #ec5242;
+}
+
+header .main-head-text {
+  max-width: 790px;
 }
 
 .top-nav {

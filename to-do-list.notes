@@ -4,9 +4,9 @@ TODO:
 [ ] Add white border on top box on main page
 [ ] Make sure to change active text on each page on nav
 [ ] add links on navbar for other pages
-[ ] make menu btton thicker
-[ ] Add background picture in header with opacity
-[ ] change figure tags
+[ ] make menu button thicker
+[√] Add background picture in header with opacity
+[√] change figure tags
 
 Step by Step:
 1. // Sort notes inc tasks
