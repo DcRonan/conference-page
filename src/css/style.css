@@ -9,6 +9,20 @@
   max-width: 700px;
 }
 
+.videos {
+  background: rgba(236, 82, 66, 0.5);
+}
+
+.videos video {
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.videos h6 {
+  font-size: smaller;
+}
+
 .bg-black {
   background-color: #272a31;
 }
@@ -75,7 +89,9 @@
 .speakers,
 .top-footer,
 .header-text,
-.logo-section {
+.logo-section,
+.past-events,
+.videos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -94,7 +110,8 @@
 .main-program h5,
 .speakers h5,
 footer h5,
-.logo-section h4 {
+.logo-section h4,
+.past-events h5 {
   border-bottom: 3px solid #ec5242;
 }
 

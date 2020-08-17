@@ -24,14 +24,17 @@
 .speakers,
 .top-footer,
 .header-text,
-.logo-section {
+.logo-section,
+.past-events,
+.videos {
   @include flexCenter(center, column);
 }
 
 .main-program h5,
 .speakers h5,
 footer h5,
-.logo-section h4 {
+.logo-section h4,
+.past-events h5 {
   border-bottom: 3px solid $text-orange;
 }
 
