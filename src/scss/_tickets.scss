@@ -1,7 +1,6 @@
 @import "./variables";
 @import "./mixins";
 
-
 /* ==========
    TICKETS
 =========== */
@@ -13,5 +12,24 @@
 
   span {
     color: $text-orange;
+  }
+
+  table {
+    font-size: 10px;
+    max-width: 1000px;
+  }
+
+  tr > th {
+    width: 60px;
+  }
+}
+
+/* =============
+   MEDIA QUERIES
+============== */
+
+@media (min-width: 570px) {
+  tr {
+    font-size: 15px;
   }
 }

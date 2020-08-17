@@ -67,6 +67,24 @@
   color: #ec5242;
 }
 
+.tickets-section table {
+  font-size: 10px;
+  max-width: 1000px;
+}
+
+.tickets-section tr > th {
+  width: 60px;
+}
+
+/* =============
+   MEDIA QUERIES
+============== */
+@media (min-width: 570px) {
+  tr {
+    font-size: 15px;
+  }
+}
+
 .bg-black {
   background-color: #272a31;
 }
