@@ -15,16 +15,17 @@
 =========== */
 
 .flex-box,
-  .flex-text {
-    @include flexCenter(row);
-  }
+.flex-text {
+  @include flexCenter(row);
+}
 
-  .main-program,
-  .speakers {
-    @include flexCenter(column);
-  }
+.main-program,
+.speakers {
+  @include flexCenter(column);
+}
 
-h5 {
+.main-program h5,
+.speakers h5 {
   border-bottom: 3px solid $text-orange;
 }
 
@@ -34,7 +35,7 @@ h5 {
 
 header {
   a {
-    color: #fff;
+    color: $white;
     margin-right: 1rem;
     &:hover {
       color: $text-orange;
@@ -52,7 +53,7 @@ header {
 
 .main-program {
   font-size: 10px;
-  color: #fff;
+  color: $white;
 
   .program-box {
     padding: 5px 2px 5px 2px;
@@ -60,7 +61,7 @@ header {
 
   .program-box:hover {
     cursor: pointer;
-    border: 1px solid #fff;
+    border: 1px solid $white;
   }
 
   span {
@@ -100,15 +101,16 @@ header {
 =================== */
 
 @media (min-width: 768px) {
-    .program-box {
-      max-width: 230px;
-      margin: 2px;
-    }
+  .program-box {
+    max-width: 230px;
+    margin: 2px;
+  }
 }
 
 @media (min-width: 992px) {
-   .program-box {
+  .program-box {
     font-size: 13px;
+
     span {
       font-size: 14px;
     }

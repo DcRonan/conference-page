@@ -52,7 +52,7 @@
       </ul>
     </nav>
     <!-- BOTTOM NAV -->
-    <nav class="col-12 navbar navbar-expand-md navbar-light">
+    <nav class="col-12 navbar navbar-expand-md navbar-light border-bottom border-silver btm-nav">
       <a href="./index.html" class="navbar-brand d-none d-md-block">
         <img src="./src/assets/svg/E3_Logo.svg" alt="E3 main logo">
       </a>
@@ -220,12 +220,12 @@
         </div>
         <!-- COLLAPSE BUTTON -->
         <div class="d-md-none w-100">
-          <button class="btn border-silver border w-100 p-3" type="button" data-toggle="collapse"
-            data-target="#speakers-dropdown" aria-expanded="false" aria-controls="speakers-dropdown">
+          <button id="more-btn" class="btn border-silver border w-100 p-3" type="button" data-toggle="collapse"
+            data-target="#speakers-dropdown" aria-expanded="false" aria-controls="speakers-dropdown" onclick="hideBtn()">
             MORE <i class="fas fa-chevron-down text-orange ml-2"></i>
           </button>
         </div>
-        <div class="collapse" id="speakers-dropdown">
+        <div class="collapse row no-gutters d-md-none" id="speakers-dropdown">
           <div class="d-flex flex-box p-2 no-gutters mb-2 pt-md-3 pb-md-3 col-12 col-md-6">
             <div class="d-flex mr-3 flex-md-column flex-text mb-md-2">
               <img width="100" src="./src/assets/images/speaker-1.png" alt="picture of EA CEO">
@@ -308,7 +308,8 @@
   <footer>
     footer
   </footer>
-
+   
+  <script src="./src/js/main.js"></script> 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
