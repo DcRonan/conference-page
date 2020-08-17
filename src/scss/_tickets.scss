@@ -1,0 +1,17 @@
+@import "./variables";
+@import "./mixins";
+
+
+/* ==========
+   TICKETS
+=========== */
+
+.tickets-section {
+  i {
+    transform: rotate(-45deg);
+  }
+
+  span {
+    color: $text-orange;
+  }
+}

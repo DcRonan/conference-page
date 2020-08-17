@@ -73,12 +73,12 @@
                             Tickets
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="./about.html">
                             About
                         </a>
                     </li>
-                    <li class="d-none d-md-block nav-item active">
+                    <li class="d-none d-md-block nav-item">
                         <button type="button" class="nav-link pl-3 pr-3" onclick="document.location='tickets.html'">
                             TICKETS
                         </button>
@@ -86,81 +86,107 @@
                 </ul>
             </div>
         </nav>
-        <!-- TITLE & ABOUT -->
-        <section class="col-12 p-3 bg-header-pattern header-text">
-            <div class="text-center">
-                <span>
-                    "E3: 2021"
-                </span>
-                <h1>
-                    E3 PRESENTS: CELEBRATIONS AND GAME ANNOUNCEMENTS
-                </h1>
-            </div>
-            <div class="card">
-                <div class="card-body border-white main-head-text">
-                    E3 is the world’s premier event for computer and video games and related products. At E3, the video
-                    game industry’s top talent pack the Los Angeles Convention Center, connecting tens of thousands of
-                    the best, brightest, and most innovative in the interactive entertainment industry. For three
-                    exciting days, leading-edge companies, groundbreaking new technologies, and never-before-seen
-                    products will be showcased. E3 connects you with both new and existing partners, industry
-                    executives, gamers, and social influencers providing unprecedented exposure to the entire video game
-                    industry, all under one roof.
-                </div>
-            </div>
-            <div class="w-100 card m-5 pt-3 text-center contact-info">
-                <p class="card-body">
-                    If you haven't found an answer to your question in our FAQ, please email <span class="text-primary">
-                        E3@compusystems.com </span>or call<span class="text-primary"> 708-486-0718</span>.
-                    Thank you.
-                </p>
-            </div>
-        </section>
-    </header>
+     </header>
     <!-- MAIN -->
     <main class="row">
-        <!-- LOGO DESCRIPTION -->
-        <section class="col-12 logo-section border-bottom border-silver">
-            <h4 class="pb-2">
-                E3 EXPO: 2021 Logo
-            </h4>
-            <h6 class="text-center ml-5 mr-5 mt-4 mb-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat aliquid id ea sequi molestiae quia fuga
-                blanditiis recusandae minima? Consequuntur, deleniti. Optio saepe, molestias distinctio sapiente
-                provident ratione corrupti praesentium.
-            </h6>
-            <div class="border-silver border pl-5 pr-5 pb-3 pt-3 mb-4">
-                <img src="./src/assets/svg/E3_Logo-section.svg" alt="E3 logo">
+        <section class="col-12 tickets-section pb-5 bg-light">
+            <h1 class="pb-1 mb-5">
+                Select Tickets
+            </h1>
+            <div class="rounded-pill pr-4 pl-4 pb-2 pt-2 border border-silver text-center d-flex flex-column flex-md-row">
+                <span class="font-weight-bold mr-md-3">
+                <i class="fas fa-square-full mr-2"></i>
+                STEP 1
+                </span>
+                Please select the day/day's you will like to join us at E3 Expo: 2021 
             </div>
-        </section>
-        <!-- PAST EVENTS -->
-        <section class="col-12 past-events pb-4">
-            <h5 class="pb-2 pt-4">
-                See the past E3 Expo events
-            </h5>
-            <h6 class="p-3">
-                See all the action from our past events!
-            </h6>
-            <div class="d-md-flex">
-                <div class="videos mb-3 mr-md-3">
-                    <video autoplay muted loop width="320" height="180" src="./src/assets/videos/E3-2019.mp4"
-                        class="position-relative"></video>
-                    <h2 class="text-white position-absolute">
-                        2019
-                    </h2>
-                    <h6 class="position-absolute pt-3 mb-n5 text-white">
-                        E3: 2019 - LA Convention Center
-                    </h6>
-                </div>
-                <div class="videos mb-3 ml-md-3">
-                    <video autoplay muted loop width="320" height="180" src="./src/assets/videos/E3-2017.mp4"
-                        class="position-relative"></video>
-                    <h2 class="text-white position-absolute">
-                        2017
-                    </h2>
-                    <h6 class="position-absolute pt-3 mb-n5 text-white">
-                        E3: 2017 - LA Convention Center
-                    </h6>
-                </div>
+            <!-- TABLE -->
+            <div class="table-responsive mt-5">
+                <table class="table table-bordered text-center">
+                    <thead>
+                      <tr class="table-active">
+                        <th scope="col">
+                            Ticket
+                        </th>
+                        <th scope="col">
+                            1 Day Ticket
+                        </th>
+                        <th scope="col">
+                            2 Day Ticket
+                        </th>
+                        <th scope="col">
+                            Full Weekend Ticket
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">
+                            Date
+                        </th>
+                        <td>
+                            Fri 12th June
+                        </td>
+                        <td>
+                            Sat 13th June
+                        </td>
+                        <td>
+                            Fri 12th - Sun 14th June
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                            Adult
+                        </th>
+                        <td>
+                            <span class="font-weight-bold"> £80 </span> <br>
+                            <input type="radio">
+                        </td>
+                        <td>
+                            <span class="font-weight-bold"> £100 </span> <br>
+                            <input type="radio">
+                        </td>
+                        <td>
+                            <span class="font-weight-bold"> £250 </span> <br>
+                            <input type="radio">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                            Child
+                        </th>
+                        <td>
+                            <span class="font-weight-bold"> £30 </span> <br>
+                            <input type="radio">
+                        </td>
+                        <td>
+                            <span class="font-weight-bold"> £40 </span> <br>
+                            <input type="radio">
+                        </td>
+                        <td>
+                            <span class="font-weight-bold"> £110 </span> <br>
+                            <input type="radio">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th scope="row">
+                            Student
+                        </th>
+                        <td>
+                            <span class="font-weight-bold"> £70 </span> <br>
+                            <input type="radio">
+                        </td>
+                        <td>
+                            <span class="font-weight-bold"> £85 </span> <br>
+                            <input type="radio">
+                        </td>
+                        <td>
+                            <span class="font-weight-bold"> £220 </span> <br>
+                            <input type="radio">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
             </div>
         </section>
     </main>

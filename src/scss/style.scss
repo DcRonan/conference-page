@@ -26,7 +26,8 @@
 .header-text,
 .logo-section,
 .past-events,
-.videos {
+.videos,
+.tickets-section {
   @include flexCenter(center, column);
 }
 
@@ -34,7 +35,8 @@
 .speakers h5,
 footer h5,
 .logo-section h4,
-.past-events h5 {
+.past-events h5,
+main h1 {
   border-bottom: 3px solid $text-orange;
 }
 
