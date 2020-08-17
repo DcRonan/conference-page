@@ -15,7 +15,8 @@
 =========== */
 
 .flex-box,
-.flex-text {
+.flex-text,
+.btm-footer {
   @include flexCenter(center, row);
 }
 
@@ -110,6 +111,12 @@ header {
 .brand-logos {
   @include flexCenter(space-evenly, center);
   flex-wrap: wrap;
+}
+
+footer {
+  p {
+    font-size: smaller;
+  }
 }
 
 /* ==================
