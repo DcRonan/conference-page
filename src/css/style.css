@@ -83,6 +83,10 @@ header a:hover {
   color: #ec5242;
 }
 
+header button {
+  border: 5px solid #ec5242;
+}
+
 .top-nav {
   height: 40px;
 }
