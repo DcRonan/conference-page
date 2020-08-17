@@ -5,6 +5,10 @@
   max-width: 370px;
 }
 
+.logo-section h6 {
+  max-width: 700px;
+}
+
 .bg-black {
   background-color: #272a31;
 }
@@ -70,7 +74,8 @@
 .main-program,
 .speakers,
 .top-footer,
-.header-text {
+.header-text,
+.logo-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -88,7 +93,8 @@
 
 .main-program h5,
 .speakers h5,
-footer h5 {
+footer h5,
+.logo-section h4 {
   border-bottom: 3px solid #ec5242;
 }
 

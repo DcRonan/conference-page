@@ -23,13 +23,15 @@
 .main-program,
 .speakers,
 .top-footer,
-.header-text {
+.header-text,
+.logo-section {
   @include flexCenter(center, column);
 }
 
 .main-program h5,
 .speakers h5,
-footer h5 {
+footer h5,
+.logo-section h4 {
   border-bottom: 3px solid $text-orange;
 }
 
