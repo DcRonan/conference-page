@@ -23,7 +23,7 @@
 header {
   h1 {
     font-family: $cocogoose-reg;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   h1,
@@ -95,7 +95,8 @@ header {
     border: 5px solid $text-orange;
   }
 
-  .main-head-text {
+  .main-head-text,
+  .h1-title {
     max-width: 790px;
   }
 
@@ -110,6 +111,7 @@ header {
     font-style: normal;
     font-weight: 900;
     color: $text-dark-gray;
+    font-size: 20px;
   }
 }
 
@@ -198,13 +200,20 @@ footer {
     max-width: 230px;
     margin: 2px;
   }
+
+  header {
+    h1 {
+      font-size: 50px;
+    }
+
+    h5,
+    h2 {
+      font-size: 30px;
+    }
+  }
 }
 
 @media (min-width: 992px) {
-  .program-box {
-    font-size: 13px;
-  }
-
   .main-page-title {
     padding-left: 100px;
   }

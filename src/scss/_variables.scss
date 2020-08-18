@@ -1,8 +1,8 @@
-// FONTS 
+// FONTS
 @import url("https://use.typekit.net/iai7est.css"); // LATO
 
 @font-face {
-  font-family: "Cocogoose Regular"; 
+  font-family: "Cocogoose Regular";
   src: url(../assets/fonts/cocogoose/narrrow-trial-regular/);
   src: url(../assets/fonts/cocogoose/narrrow-trial-regular/Cocogoose-Narrow-Regular-trial.eot);
   src: url(../assets/fonts/cocogoose/narrrow-trial-regular/Cocogoose-Narrow-Regular-trial.svg);
@@ -28,9 +28,14 @@
   src: url(../assets/fonts/cocogoose/narrow-semi-light/Cocogoose-Compressed-Semilight-trial.woff);
 } // COCOGOOSE SemiLight
 
-$cocogoose-reg: 'Cocogoose Regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-$cocogoose-ultra-light: 'Cocogoose UltraLight', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-$cocogoose-semi-light: 'Cocogoose SemiLight', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$cocogoose-reg: "Cocogoose Regular", "Lucida Sans", "Lucida Sans Regular",
+  "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+$cocogoose-ultra-light: "Cocogoose UltraLight", "Lucida Sans",
+  "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+  sans-serif;
+$cocogoose-semi-light: "Cocogoose SemiLight", "Lucida Sans",
+  "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+  sans-serif;
 
 // ===============================
 
@@ -40,6 +45,12 @@ $text-orange: #ec5242;
 $text-gray: #d3d3d3;
 $text-dark-gray: #535353;
 $white: #fff;
+
+.text-lato-reg {
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
 
 .bg-black {
   background-color: #272a31;
