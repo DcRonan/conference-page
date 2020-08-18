@@ -185,6 +185,14 @@ header {
   figure h5 {
     font-family: $cocogoose-semi-light;
   }
+
+  figcaption {
+    font-size: 10px;
+  }
+
+  img {
+    width: 80px;
+  }
 }
 
 /* ==========
@@ -220,6 +228,16 @@ footer {
     h5,
     h2 {
       font-size: 30px;
+    }
+  }
+
+  .speakers {
+    figcaption {
+      font-size: small;
+    }
+  
+    img {
+      width: 100px;
     }
   }
 }

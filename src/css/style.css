@@ -429,6 +429,14 @@ header h2 {
   font-family: "Cocogoose SemiLight", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.speakers figcaption {
+  font-size: 10px;
+}
+
+.speakers img {
+  width: 80px;
+}
+
 /* ==========
    FOOTER
 =========== */
@@ -468,6 +476,12 @@ footer p {
   header h5,
   header h2 {
     font-size: 30px;
+  }
+  .speakers figcaption {
+    font-size: small;
+  }
+  .speakers img {
+    width: 100px;
   }
 }
 
