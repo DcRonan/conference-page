@@ -251,3 +251,9 @@ footer {
     font-size: 11px;
   }
 }
+
+@media (min-width: 1440px) {
+  .speakers figcaption {
+    font-size: 18px;
+  } 
+}

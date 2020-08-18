@@ -503,4 +503,10 @@ footer p {
     font-size: 11px;
   }
 }
+
+@media (min-width: 1440px) {
+  .speakers figcaption {
+    font-size: 18px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-# Project Name
+# HTML/CSS Capstone: E3 2021 Conference
 ![Microverse](https://img.shields.io/badge/-Microverse-6F23FF?style=for-the-badge)
 ## Library Directory
  
@@ -11,21 +11,28 @@
 | [License](#license) | 
 
 ## Description
-> Write about the project...
+> In this project I created a website that includes 3 pages for E3 Expo: 2021.
 
-![screenshot](./src/assets/images/screenshot.svg)
+![screenshot](./src/assets/images/main-screenshot.png)
 
-Additional description about the project and its features...
+This is my final project of the HTML/CSS module and the task was to create a website consisting of 3 pages and to build off a design that was provided to me. I was asked to build a website that of a conference that takes place so I chose to do 'E3: EXPO'. 
+
+If you have a look around and resize the pages, you will see how the page reacts and is placed in it's different positions. <b> There are 3 pages, 'Home', 'About' and 'Tickets'. </b>
+
+The design that was given to me was designed by <a href="https://www.behance.net/adagio07"> Cindy Shin </a> and the design that I was given is <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> here </a>
 
 ## Built With
 ```
 - HTML5 
 - CSS3
+- Bootstrap
+- JavaScript
 - VS Code
 - Font Awesome Icons
 ```
 
 ![img](./src/assets/svg/html-5.svg) ![img](./src/assets/svg/css-3.svg)
+![img](./src/assets/svg/bootstrap.svg) ![img](./src/assets/svg/javascript.svg)
 ![img](./src/assets/svg/v-s-code.svg) ![img](./src/assets/svg/fontawesome.svg)
 
 <!--
