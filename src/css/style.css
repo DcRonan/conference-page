@@ -3,6 +3,10 @@
 =========== */
 @import url("https://use.typekit.net/iai7est.css");
 @import url("https://use.typekit.net/iai7est.css");
+.about-header {
+  max-width: 700px;
+}
+
 .contact-info {
   max-width: 370px;
 }
