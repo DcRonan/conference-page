@@ -493,6 +493,9 @@ footer p {
   .speakers img {
     width: 100px;
   }
+  .brand-logos img {
+    width: 108px;
+  }
 }
 
 @media (min-width: 992px) {
