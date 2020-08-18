@@ -20,6 +20,24 @@
   @include flexCenter(center, row);
 }
 
+header {
+  h1 {
+    font-family: $cocogoose-reg;
+    font-size: 35px;
+  }
+
+  h1,
+  span {
+    color: $text-orange;
+  }
+}
+
+p {
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .main-program,
 .speakers,
 .top-footer,
@@ -68,6 +86,11 @@ header {
 
   .main-head-text {
     max-width: 790px;
+  }
+
+  span,
+  p {
+    font-family: $cocogoose-ultra-light;
   }
 }
 
@@ -157,5 +180,9 @@ footer {
     span {
       font-size: 14px;
     }
+  }
+
+  .main-page-title {
+    padding-left: 100px;
   }
 }

@@ -1,3 +1,39 @@
+// FONTS 
+@import url("https://use.typekit.net/iai7est.css"); // LATO
+
+@font-face {
+  font-family: "Cocogoose Regular"; 
+  src: url(../assets/fonts/cocogoose/narrrow-trial-regular/);
+  src: url(../assets/fonts/cocogoose/narrrow-trial-regular/Cocogoose-Narrow-Regular-trial.eot);
+  src: url(../assets/fonts/cocogoose/narrrow-trial-regular/Cocogoose-Narrow-Regular-trial.svg);
+  src: url(../assets/fonts/cocogoose/narrrow-trial-regular/Cocogoose-Narrow-Regular-trial.ttf);
+  src: url(../assets/fonts/cocogoose/narrrow-trial-regular/Cocogoose-Narrow-Regular-trial.woff);
+} // COCOGOOSE REGULAR
+
+@font-face {
+  font-family: "Cocogoose UltraLight";
+  src: url(../assets/fonts/cocogoose/narrow-ultra-light/);
+  src: url(../assets/fonts/cocogoose/narrow-ultra-light/Cocogoose-Narrow-Ultralight-trial.eot);
+  src: url(../assets/fonts/cocogoose/narrow-ultra-light/Cocogoose-Narrow-Ultralight-trial.svg);
+  src: url(../assets/fonts/cocogoose/narrow-ultra-light/Cocogoose-Narrow-Ultralight-trial.ttf);
+  src: url(../assets/fonts/cocogoose/narrow-ultra-light/Cocogoose-Narrow-Ultralight-trial.woff);
+} // COCOGOOSE UltraLight
+
+@font-face {
+  font-family: "Cocogoose SemiLight";
+  src: url(../assets/fonts/cocogoose/narrow-semi-light/);
+  src: url(../assets/fonts/cocogoose/narrow-semi-light/Cocogoose-Compressed-Semilight-trial.eot);
+  src: url(../assets/fonts/cocogoose/narrow-semi-light/Cocogoose-Compressed-Semilight-trial.svg);
+  src: url(../assets/fonts/cocogoose/narrow-semi-light/Cocogoose-Compressed-Semilight-trial.ttf);
+  src: url(../assets/fonts/cocogoose/narrow-semi-light/Cocogoose-Compressed-Semilight-trial.woff);
+} // COCOGOOSE SemiLight
+
+$cocogoose-reg: 'Cocogoose Regular', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$cocogoose-ultra-light: 'Cocogoose UltraLight', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$cocogoose-semi-light: 'Cocogoose SemiLight', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+// ===============================
+
 // COLORS
 $text-black: #272a31;
 $text-orange: #ec5242;

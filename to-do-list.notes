@@ -1,14 +1,12 @@
 
 TODO:
 [ ] Add favicon
-[ ] Add white border on top box on main page
 [√] Make sure to change active text on each page on nav
 [√] add links on navbar for other pages
-[ ] make menu button thicker
 [√] Add background picture in header with opacity
 [√] change figure tags
-[ ] Add another nav on about page
 [ ] display none for about video on mobile devices and replace with photo
+[ ] place header text to middle
 
 Step by Step:
 1. // Sort notes inc tasks
@@ -17,17 +15,15 @@ Step by Step:
 4. // make pages responsive before adding content
 
 Things to add:
-[ ] CSS Patterns
-[ ] CSS Animations
-[ ] More button for home page of speakers
-[ ] Background videos
-[ ] Background image in heading text
-[ ] Flex-Box in css
+[√] CSS Patterns
+[√] More button for home page of speakers
+[√] Background videos
+[√] Flex-Box in css
 
 !FONTS!
 
 - COCOGOOSE
-- layouts
+- lato
 
 !COLORS!
 
