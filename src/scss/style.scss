@@ -39,7 +39,6 @@ fieldset div {
 footer h5,
 .logo-section h4,
 .past-events h5,
-main ,
 .tickets-section h1,
 .lunch-section h3 {
   border-bottom: 3px solid $text-orange;
@@ -48,6 +47,11 @@ main ,
 /* ==========
    HEADER
 =========== */
+
+.btm-nav {
+  top: 0;
+  z-index: 800;
+}
 
 header {
   a {

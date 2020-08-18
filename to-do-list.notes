@@ -8,6 +8,7 @@ TODO:
 [√] Add background picture in header with opacity
 [√] change figure tags
 [ ] Add another nav on about page
+[ ] display none for about video on mobile devices and replace with photo
 
 Step by Step:
 1. // Sort notes inc tasks
