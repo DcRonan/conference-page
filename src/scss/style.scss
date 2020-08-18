@@ -23,7 +23,7 @@
 header {
   h1 {
     font-family: $cocogoose-reg;
-    font-size: 35px;
+    font-size: 25px;
   }
 
   h1,
@@ -36,6 +36,11 @@ p {
   font-family: lato, sans-serif;
   font-style: normal;
   font-weight: 400;
+}
+
+nav,
+footer {
+  font-family: lato, sans-serif;
 }
 
 .main-program,
@@ -66,6 +71,12 @@ footer h5,
    HEADER
 =========== */
 
+nav {
+  li {
+    list-style: none;
+  }
+}
+
 .btm-nav {
   top: 0;
   z-index: 800;
@@ -92,6 +103,14 @@ header {
   p {
     font-family: $cocogoose-ultra-light;
   }
+
+  h5,
+  h2 {
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: $text-dark-gray;
+  }
 }
 
 .top-nav {
@@ -117,6 +136,14 @@ header {
 
   span {
     color: $text-orange;
+    font-family: $cocogoose-reg;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .flex-text {
+    justify-content: space-between;
+    padding: 0 7px;
   }
 
   i {
@@ -176,10 +203,6 @@ footer {
 @media (min-width: 992px) {
   .program-box {
     font-size: 13px;
-
-    span {
-      font-size: 14px;
-    }
   }
 
   .main-page-title {
