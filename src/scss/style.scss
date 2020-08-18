@@ -20,18 +20,6 @@
   @include flexCenter(center, row);
 }
 
-header {
-  h1 {
-    font-family: $cocogoose-reg;
-    font-size: 30px;
-  }
-
-  h1,
-  span {
-    color: $text-orange;
-  }
-}
-
 p {
   font-family: lato, sans-serif;
   font-style: normal;
@@ -41,6 +29,25 @@ p {
 nav,
 footer {
   font-family: lato, sans-serif;
+}
+
+header h1 {
+  font-family: $cocogoose-reg;
+  font-size: 30px;
+}
+
+header h1,
+header span {
+  color: $text-orange;
+}
+
+h5,
+h2 {
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: $text-dark-gray;
+  font-size: 20px;
 }
 
 .main-program,
@@ -57,9 +64,9 @@ fieldset div {
   @include flexCenter(center, column);
 }
 
+footer h5,
 .main-program h5,
 .speakers h5,
-footer h5,
 .logo-section h4,
 .past-events h5,
 .tickets-section h1,
@@ -86,6 +93,7 @@ header {
   a {
     color: $white;
     margin-right: 1rem;
+
     &:hover {
       color: $text-orange;
     }
@@ -103,15 +111,6 @@ header {
   span,
   p {
     font-family: $cocogoose-ultra-light;
-  }
-
-  h5,
-  h2 {
-    font-family: lato, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    color: $text-dark-gray;
-    font-size: 20px;
   }
 }
 
@@ -201,6 +200,7 @@ header {
 
 .brand-logos {
   @include flexCenter(space-evenly, center);
+
   flex-wrap: wrap;
 }
 
@@ -255,5 +255,5 @@ footer {
 @media (min-width: 1440px) {
   .speakers figcaption {
     font-size: 18px;
-  } 
+  }
 }
