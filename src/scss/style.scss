@@ -235,7 +235,7 @@ footer {
     figcaption {
       font-size: small;
     }
-  
+
     img {
       width: 100px;
     }
@@ -245,5 +245,9 @@ footer {
 @media (min-width: 992px) {
   .main-page-title {
     padding-left: 100px;
+  }
+
+  .program-text {
+    font-size: 11px;
   }
 }

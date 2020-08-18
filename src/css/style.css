@@ -15,11 +15,15 @@
   max-width: 700px;
 }
 
+/* =============
+   PAST EVENTS
+============== */
 .videos {
   background: rgba(236, 82, 66, 0.5);
 }
 
-.videos video {
+.videos video,
+.videos img {
   z-index: -1;
   -o-object-fit: cover;
      object-fit: cover;
@@ -488,6 +492,9 @@ footer p {
 @media (min-width: 992px) {
   .main-page-title {
     padding-left: 100px;
+  }
+  .program-text {
+    font-size: 11px;
   }
 }
 /*# sourceMappingURL=style.css.map */
