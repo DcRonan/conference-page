@@ -46,13 +46,11 @@ The design that was given to me was designed by <a href="https://www.behance.net
 
 ## Live Demo
 
-#### Click on the button below..
+#### Click on the image below..
 
 <a href="https://e3-expo.vercel.app/" target="_blank">
     <img src="src/assets/svg/monitor.svg">
 </a>
-
-[![Deploy with Vercel](https://e3-expo.vercel.app/)
 
 ## Run Tests
 
