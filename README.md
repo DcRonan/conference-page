@@ -46,13 +46,13 @@ The design that was given to me was designed by <a href="https://www.behance.net
 
 ## Live Demo
 
-#### Click on image below..
+#### Click on the button below..
 
 <a href="https://e3-expo.vercel.app/" target="_blank">
     <img src="src/assets/svg/monitor.svg">
 </a>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world)
+[![Deploy with Vercel](https://e3-expo.vercel.app/)
 
 ## Run Tests
 
