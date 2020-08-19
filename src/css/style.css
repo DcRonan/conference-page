@@ -34,7 +34,7 @@
 }
 
 .about-text {
-  font-family: lato, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 600;
 }
@@ -454,16 +454,16 @@ header p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: center;
-          flex-direction: center;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }

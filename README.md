@@ -14,6 +14,7 @@
 > In this project I created a website that includes 3 pages for E3 Expo: 2021.
 
 ![screenshot](./src/assets/images/main-screenshot.png)
+![gif](./src/assets/gifs/gif1.gif) ![gif](./src/assets/gifs/gif2.gif)
 
 This is my final project of the HTML/CSS module and the task was to create a website consisting of 3 pages and to build off a design that was provided to me. I was asked to build a website that of a conference that takes place so I chose to do 'E3: EXPO'. 
 
@@ -25,6 +26,7 @@ The design that was given to me was designed by <a href="https://www.behance.net
 ```
 - HTML5 
 - CSS3
+- SASS
 - Bootstrap
 - JavaScript
 - VS Code
@@ -32,6 +34,7 @@ The design that was given to me was designed by <a href="https://www.behance.net
 ```
 
 ![img](./src/assets/svg/html-5.svg) ![img](./src/assets/svg/css-3.svg)
+![img](./src/assets/svg/sass.svg)
 ![img](./src/assets/svg/bootstrap.svg) ![img](./src/assets/svg/javascript.svg)
 ![img](./src/assets/svg/v-s-code.svg) ![img](./src/assets/svg/fontawesome.svg)
 
