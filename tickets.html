@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> E3 2021 </title>
+    <meta name="description" content="A static website">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://unpkg.com/sanitize.css/forms.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/867f1dd431.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body class="container-fluid">
+    <!-- HEADER -->
+    <header class="row">
+        <!-- TOP NAV -->
+        <nav class="col-12 d-none d-md-flex justify-content-end bg-black navbar top-nav">
+            <ul class="d-flex">
+                <li class="nav-item">
+                    <a href="#" class="text-decoration-none">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="text-decoration-none">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+            <ul class="d-flex mr-3">
+                <li class="nav-item">
+                    <a href="#" class="text-decoration-none">
+                        English
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="text-decoration-none">
+                        My Page
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="text-decoration-none">
+                        Logout
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- BOTTOM NAV -->
+        <nav class="col-12 navbar navbar-expand-md navbar-light border-bottom border-silver btm-nav position-sticky">
+            <a href="./index.html" class="navbar-brand d-none d-md-block">
+                <img src="./src/assets/svg/E3_Logo.svg" alt="E3 main logo">
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#nav-links"
+                aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- DROPDOWN -->
+            <div class="navbar-collapse collapse justify-content-end" id="nav-links">
+                <ul class="navbar-nav pl-3 align-items-center">
+                    <li class="nav-item active">
+                        <a class="nav-link text-decoration-none" href="./index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item d-md-none">
+                        <a class="nav-link" href="./tickets.html">
+                            Tickets
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./about.html">
+                            About
+                        </a>
+                    </li>
+                    <li class="d-none d-md-block nav-item">
+                        <button type="button" class="nav-link pl-3 pr-3" onclick="document.location='tickets.html'">
+                            TICKETS
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="row">
+        <!-- TICKETS SECTION -->
+        <section class="col-12 tickets-section pb-5 bg-light">
+            <h1 class="pb-1 mb-5 mt-5 text-lato-reg font-weight-bold">
+                Select Tickets
+            </h1>
+            <div
+                class="rounded-pill pr-4 pl-4 pb-2 pt-2 border border-silver text-center d-flex flex-column flex-md-row text-lato-reg">
+                <span class="font-weight-bold mr-md-3">
+                    <i class="fas fa-square-full mr-2"></i>
+                    STEP 1
+                </span>
+                Please select the day/day's you will like to join us at E3 Expo: 2021
+            </div>
+            <!-- TABLE -->
+            <div class="table-responsive mt-5 tickets-table">
+                <table class="table table-bordered text-center m-auto text-lato-reg">
+                    <thead>
+                        <tr class="table-active">
+                            <th scope="col">
+                                Ticket
+                            </th>
+                            <th scope="col">
+                                1 Day Ticket
+                            </th>
+                            <th scope="col">
+                                2 Day Ticket
+                            </th>
+                            <th scope="col">
+                                Full Weekend Ticket
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                Date
+                            </th>
+                            <td>
+                                Fri 12th June
+                            </td>
+                            <td>
+                                Sat 13th June
+                            </td>
+                            <td>
+                                Fri 12th - Sun 14th June
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                Adult
+                            </th>
+                            <td>
+                                <span class="font-weight-bold"> £80 </span> <br>
+                                <input type="radio" name="ticket" value="1 Day Ticket">
+                            </td>
+                            <td>
+                                <span class="font-weight-bold"> £100 </span> <br>
+                                <input type="radio" name="ticket" value="2 Day Ticket">
+                            </td>
+                            <td>
+                                <span class="font-weight-bold"> £250 </span> <br>
+                                <input type="radio" name="ticket" value="Full Weekend Ticket">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                Child
+                            </th>
+                            <td>
+                                <span class="font-weight-bold"> £30 </span> <br>
+                                <input type="radio" name="ticket" value="1 Day Ticket">
+                            </td>
+                            <td>
+                                <span class="font-weight-bold"> £40 </span> <br>
+                                <input type="radio" name="ticket" value="2 Day Ticket">
+                            </td>
+                            <td>
+                                <span class="font-weight-bold"> £110 </span> <br>
+                                <input type="radio" name="ticket" value="Full Weekend Ticket">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                Student
+                            </th>
+                            <td>
+                                <span class="font-weight-bold"> £70 </span> <br>
+                                <input type="radio" name="ticket" value="1 Day Ticket">
+                            </td>
+                            <td>
+                                <span class="font-weight-bold"> £85 </span> <br>
+                                <input type="radio" name="ticket" value="2 Day Ticket">
+                            </td>
+                            <td>
+                                <span class="font-weight-bold"> £220 </span> <br>
+                                <input type="radio" name="ticket" value="Full Weekend Ticket">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- LUNCH SECTION -->
+        <section class="col-12 lunch-section pb-5 position-relative">
+            <div class="position-absolute fixed-top square-section">
+                <i class="fas fa-square-full square-middle position-absolute"></i>
+                <i class="fas fa-chevron-down position-relative text-white"></i>
+            </div>
+            <h3 class="pb-1 mb-5 mt-5 text-lato-reg font-weight-bold">
+                Select Your Lunch
+            </h3>
+            <div
+                class="rounded-pill pr-4 pl-4 pb-2 pt-2 border border-silver text-center d-flex flex-column flex-md-row mb-2 text-lato-reg">
+                <span class="font-weight-bold mr-md-3">
+                    <i class="fas fa-square-full"></i>
+                    STEP 2
+                </span>
+                Please select your lunch for the day <b> (lunch is in included with the price) </b>
+            </div>
+            <div>
+                <button onclick="hideLunchBtn()" id="lunch-btn" type="button"
+                    class="btn mt-3 bg-orange border-0 text-white p-2 text-lato-reg" data-toggle="collapse"
+                    data-target="#menu-collapse" aria-expanded="false" aria-controls="menu-collapse">
+                    Click Here <i class="fas fa-chevron-down text-white"></i>
+                </button>
+            </div>
+            <!-- MENUS -->
+            <div class="collapse mt-4 " id="menu-collapse">
+                <div class="d-md-flex">
+                    <div id="menu-examples" class="accordion mr-md-5 mb-5 mb-md-0">
+                        <div class="card">
+                            <div id="first-menu" class="card-header">
+                                <h4>
+                                    <button class="btn btn-block text-center font-weight-bold" type="button"
+                                        data-toggle="collapse" data-target="#menu-one" aria-expanded="true"
+                                        aria-controls="menu-one">
+                                        Menu #1
+                                    </button>
+                                </h4>
+                            </div>
+                            <div id="menu-one" class="collapse show" aria-labelledby="first-menu"
+                                data-parent="#menu-examples">
+                                <div class="card-body">
+                                    <ol class="ml-2">
+                                        <li>
+                                            Carved selection of cold meats
+                                        </li>
+                                        <li>
+                                            Roast leg of lamb with rosemary
+                                        </li>
+                                        <li>
+                                            Mango and orange cheesecake
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="second-menu" class="card-header">
+                                <h4>
+                                    <button class="btn btn-block text-center font-weight-bold" type="button"
+                                        data-toggle="collapse" data-target="#menu-two" aria-expanded="true"
+                                        aria-controls="menu-two">
+                                        Menu #2
+                                    </button>
+                                </h4>
+                            </div>
+                            <div id="menu-two" class="collapse" aria-labelledby="second-menu"
+                                data-parent="#menu-examples">
+                                <div class="card-body">
+                                    <ol class="ml-2">
+                                        <li>
+                                            Choice of a sandwich/wrap
+                                        </li>
+                                        <li>
+                                            Fruit
+                                        </li>
+                                        <li>
+                                            Mini dessert selection
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="veg-menu" class="card-header">
+                                <h4>
+                                    <button class="btn btn-block text-center font-weight-bold" type="button"
+                                        data-toggle="collapse" data-target="#menu-three" aria-expanded="true"
+                                        aria-controls="menu-three">
+                                        Vegetarian
+                                    </button>
+                                </h4>
+                            </div>
+                            <div id="menu-three" class="collapse" aria-labelledby="veg-menu"
+                                data-parent="#menu-examples">
+                                <div class="card-body">
+                                    <ol class="ml-2">
+                                        <li>
+                                            Mozzarella, vine tomatoes and basil salad
+                                        </li>
+                                        <li>
+                                            Swiss cheese w/ onion chutney on rye bread(V)
+                                        </li>
+                                        <li>
+                                            Fresh fruit
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div id="vegan-menu" class="card-header">
+                                <h4>
+                                    <button class="btn btn-block text-center font-weight-bold" type="button"
+                                        data-toggle="collapse" data-target="#menu-four" aria-expanded="true"
+                                        aria-controls="menu-four">
+                                        Vegan
+                                    </button>
+                                </h4>
+                            </div>
+                            <div id="menu-four" class="collapse" aria-labelledby="vegan-menu"
+                                data-parent="#menu-examples">
+                                <div class="card-body">
+                                    <ol class="ml-2">
+                                        <li>
+                                            Mixed garden salad
+                                        </li>
+                                        <li>
+                                            Penne pasta with a verdi salad and herb oil
+                                        </li>
+                                        <li>
+                                            Exotic fresh fruit salad
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- RADIO BUTTON OPTIONS -->
+                    <div class="menu-radio ml-md-5">
+                        <fieldset>
+                            <div class="mb-2">
+                                <h6>
+                                    Menu #1
+                                </h6>
+                                <input type="radio" name="menu-choice" value="menu-one" class="m-auto">
+                            </div>
+                            <div class="mb-2">
+                                <h6>
+                                    Menu #2
+                                </h6>
+                                <input type="radio" name="menu-choice" value="menu-two" class="m-auto">
+                            </div>
+                            <div class="mb-2">
+                                <h6>
+                                    Vegetarian
+                                </h6>
+                                <input type="radio" name="menu-choice" value="veg-menu" class="m-auto">
+                            </div>
+                            <div class="mb-2">
+                                <h6>
+                                    Vegan
+                                </h6>
+                                <input type="radio" name="menu-choice" value="vegan-menu" class="m-auto">
+                            </div>
+                            <div>
+                                <button class="btn bg-orange text-white" type="submit">
+                                    SUBMIT
+                                </button>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="row">
+        <!-- PARTNERS -->
+        <section class="col-12 bg-footer p-5 text-white top-footer">
+            <div>
+                <h5 class="pb-1 text-lato-reg text-white">
+                    Partners
+                </h5>
+            </div>
+            <div class="p-1 p-md-4 brand-logos">
+                <img class="p-1 mr-md-3" src="./src/assets/svg/playstation-wordmark.svg" alt="playstation brand logo">
+                <img class="p-1 mr-md-3" src="./src/assets/svg/xbox-12.svg" alt="xbox brand logo">
+                <img class="p-1 mr-md-3" src="./src/assets/svg/ea.svg" alt="ea brand logo">
+                <img class="p-1 mr-md-3" src="./src/assets/svg/nintendo-2.svg" alt="Nintendo brand logo">
+                <img class="p-1 mr-md-3" src="./src/assets/svg/super-nintendo-entertainment-system.svg"
+                    alt="nintendo brand logo">
+            </div>
+        </section>
+        <!-- BOTTOM FOOTER -->
+        <section class="col-12 bg-black p-4 text-white btm-footer">
+            <img src="./src/assets/svg/E3_Logo.svg" alt="E3 logo">
+            <p class="pl-3 pt-3">
+                © 2020 ENTERTAINMENT SOFTWARE ASSOCIATION
+            </p>
+        </section>
+    </footer>
+
+    <script src="./src/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

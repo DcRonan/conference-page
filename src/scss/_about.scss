@@ -1,0 +1,39 @@
+/* ==========
+   HEADER
+=========== */
+
+.about-header {
+  max-width: 700px;
+}
+
+.contact-info {
+  max-width: 370px;
+}
+
+.logo-section h6 {
+  max-width: 700px;
+}
+
+/* =============
+   PAST EVENTS
+============== */
+
+.videos {
+  background: rgba(236, 82, 66, 0.5);
+
+  video,
+  img {
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  h6 {
+    font-size: smaller;
+  }
+}
+
+.about-text {
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}

@@ -1,0 +1,263 @@
+@import "./about";
+@import "./tickets";
+@import "./mixins";
+@import "./variables";
+
+// RESET
+*,
+*::before,
+*::after {
+  @include reset();
+}
+
+/* ==========
+   MULTIPLE
+=========== */
+
+.flex-box,
+.flex-text,
+.btm-footer {
+  @include flexCenter(center, row);
+}
+
+p {
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+nav,
+footer {
+  font-family: lato, sans-serif;
+}
+
+header h1 {
+  font-family: $cocogoose-reg;
+  font-size: 30px;
+}
+
+header h1,
+header span {
+  color: $text-orange;
+}
+
+h5,
+h2 {
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  color: $text-dark-gray;
+  font-size: 20px;
+}
+
+.main-program,
+.speakers,
+.top-footer,
+.header-text,
+.logo-section,
+.past-events,
+.videos,
+.tickets-section,
+.lunch-section,
+.menu-radio,
+fieldset div {
+  @include flexCenter(center, column);
+}
+
+footer h5,
+.main-program h5,
+.speakers h5,
+.logo-section h4,
+.past-events h5,
+.tickets-section h1,
+.lunch-section h3 {
+  border-bottom: 3px solid $text-orange;
+}
+
+/* ==========
+   HEADER
+=========== */
+
+nav {
+  li {
+    list-style: none;
+  }
+}
+
+.btm-nav {
+  top: 0;
+  z-index: 800;
+}
+
+header {
+  a {
+    color: $white;
+    margin-right: 1rem;
+
+    &:hover {
+      color: $text-orange;
+    }
+  }
+
+  button {
+    border: 5px solid $text-orange;
+  }
+
+  .main-head-text,
+  .h1-title {
+    max-width: 790px;
+  }
+
+  span,
+  p {
+    font-family: $cocogoose-ultra-light;
+  }
+}
+
+.top-nav {
+  height: 40px;
+}
+
+/* ==========
+   PROGRAM
+=========== */
+
+.main-program {
+  font-size: 10px;
+  color: $white;
+
+  .program-box {
+    padding: 5px 2px 5px 2px;
+  }
+
+  .program-box:hover {
+    cursor: pointer;
+    border: 2px solid $white;
+  }
+
+  span {
+    color: $text-orange;
+    font-family: $cocogoose-reg;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .flex-text {
+    justify-content: space-between;
+    padding: 0 7px;
+  }
+
+  i {
+    font-size: 35px;
+  }
+
+  button {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+
+  h6 {
+    text-decoration: underline;
+  }
+}
+
+/* ==========
+   SPEAKERS
+=========== */
+
+.speakers {
+  button {
+    box-shadow: 2px 2px;
+
+    i {
+      color: $text-orange;
+    }
+  }
+
+  h6 {
+    color: $text-orange;
+    font-family: lato, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  figure h5 {
+    font-family: $cocogoose-semi-light;
+  }
+
+  figcaption {
+    font-size: 10px;
+  }
+
+  img {
+    width: 80px;
+  }
+}
+
+/* ==========
+   FOOTER
+=========== */
+
+.brand-logos {
+  @include flexCenter(space-evenly, center);
+
+  flex-wrap: wrap;
+}
+
+footer {
+  p {
+    font-size: smaller;
+  }
+}
+
+/* ==================
+   MEDIA QUERIES
+=================== */
+
+@media (min-width: 768px) {
+  .program-box {
+    max-width: 230px;
+    margin: 2px;
+  }
+
+  header {
+    h1 {
+      font-size: 50px;
+    }
+
+    h5,
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .speakers {
+    figcaption {
+      font-size: small;
+    }
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .brand-logos img {
+    width: 108px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-page-title {
+    padding-left: 100px;
+  }
+
+  .program-text {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .speakers figcaption {
+    font-size: 18px;
+  }
+}
