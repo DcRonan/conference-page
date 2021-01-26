@@ -11,14 +11,14 @@
 | [License](#license) | 
 
 ## Description
-> In this project I created a website that includes 3 pages for E3 Expo: 2021.
+> In this project, I created a website that includes 3 pages for the E3 Expo: 2021.
 
 ![screenshot](./src/assets/images/main-screenshot.png)
 ![gif](./src/assets/gifs/gif1.gif) ![gif](./src/assets/gifs/gif2.gif)
 
 This is my final project of the HTML/CSS module and the task was to create a website consisting of 3 pages and to build off a design that was provided to me. I was asked to build a website that of a conference that takes place so I chose to do 'E3: EXPO'. 
 
-If you have a look around and resize the pages, you will see how the page reacts and is placed in it's different positions. <b> There are 3 pages, 'Home', 'About' and 'Tickets'. </b>
+If you have a look around and resize the pages, you will see how the page reacts and is placed in its different positions. <b> There are 3 pages, 'Home', 'About' and 'Tickets'. </b>
 
 The design that was given to me was designed by <a href="https://www.behance.net/adagio07"> Cindy Shin </a> and the design that I was given is <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015"> here </a>
 
@@ -81,16 +81,11 @@ npm test
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](enter issues url here).
+Feel free to check the [issues page](https://github.com/DcRonan/conference-page/issues).
 
 ### Show your support
 
 Give a ⭐️ if you like this project!
-
-### Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
 
 ### License
 
